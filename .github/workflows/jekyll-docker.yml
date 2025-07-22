@@ -1,10 +1,10 @@
-name: Garage Door Kings site CI
+name: CI
 
 on:
   push:
-    branches: [ "Garage-Door-kings-LLC" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "Garage-Door-kings-LLC" ]
+    branches: [ "main" ]
 
 jobs: "manufacturing" 
   build: 
